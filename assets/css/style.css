@@ -1,0 +1,342 @@
+.gap-50 {
+    gap: 50px !important;
+}
+
+.rubik-font {
+    font-family: var(--rubik-font) !important;
+}
+
+.jakarta-font {
+    font-family: var(--jakarta-font) !important;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+/* ========================================================= */
+.main-heading {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    max-width: 447px;
+    width: 100%;
+    
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 555px;
+    width: 100%;
+    color: #4F5665;
+}
+
+/* ==================================================================== */
+.card-1 {
+    max-width: 400px !important;
+    
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+/* .card-1:active:after {
+    max-width: 400px;
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 15px #4F5665 !important;
+    padding: 30px;
+    margin-left: 30px;
+
+} */
+
+.card-1:hover {
+    border: 2px solid #F53838;
+    transition: all 200ms linear;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.card-para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    height: 100px;
+    color: #0B132A;
+}
+
+/* =========================================================================== */
+.gap-15 {
+    gap: 15px;
+}
+
+.prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border-color: #F43838;
+    transition: all .4s linear;
+    background-color: white;
+}
+
+.prev:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #F43838;
+    color: white;
+    border-color: #F43838;
+}
+
+.prev:hover svg path {
+    fill: white;
+}
+
+.next {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: white;
+    color: #F43838;
+    border-color: #F43838;
+    transition: all .4s linear;
+}
+
+.next:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #F43838;
+    color: white;
+    border-color: #F43838;
+}
+
+.next:hover svg path {
+    fill: white;
+
+}
+
+/* ============================================================ */
+
+
+.slider-1 .slick-dots {
+    right: 41% !important;
+    bottom: -27% !important;
+    width: auto!important;
+}
+
+.slick-dots li {
+    background-color: #dde0e4;
+    border-radius: 50%;
+    transition: 0.3s !important;
+}
+
+.slick-dots .slick-active {
+    width: 45px;
+    background-color: #F53838;
+    border-radius: 10px;
+}
+
+
+
+.slick-dots li button:before {
+    margin-top: 42px;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent !important;
+}
+
+/* ======================================================== */
+
+.section-2 .card-parent-sec-2 .slick-dots {
+    bottom: -76px !important;
+}
+
+
+.section-2 .card-parent-sec-2 .slick-dots li {
+    background-color: #dde0e4;
+    border-radius: 50%;
+    transition: 0.3s !important;
+}
+
+.section-2 .card-parent-sec-2 .slick-dots .slick-active {
+    width: 79px;
+    background-color: #1219D2;
+    border-radius: 10px;
+}
+
+.section-2 .card-parent-sec-2 .slick-dots :not(.slick-active) {
+    width: 39px;
+    border-radius: 10px;
+}
+
+
+.section-2 .card-parent-sec-2 .slick-dots li button:before {
+    margin-top: 42px;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent !important;
+}
+
+/* ==========================section-2=========================================== */
+.sec-2-bg {
+    background-image: url(/assets/images/sliders.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-2-heading {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.4px;
+    text-align: center;
+    color: white;
+}
+
+.team-member-img {
+    width: 367px;
+    height: 374px;
+
+}
+
+.sec-2-card {
+
+    border-radius: 13px;
+    background: #1219D233;
+}
+
+.border-radias-13 {
+    border-radius: 13px 13px 0 0;
+}
+
+.sec-2-card-head {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.sec-2-card-para {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+/* =============================section-3============================================/ */
+
+.sec-3-card {
+    background: #0389FF1F;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 56px 0 56px;
+    border-radius: 14px;
+}
+.sec-3-card:hover:active{
+    box-shadow: 2px 3px 5px white !important;
+}
+
+.sec-3-bg {
+    background-image: url(/assets/images/sec-3-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-3-head {
+    color: white;
+}
+
+.sec-3-card-para {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 834px;
+   
+}
+
+.sec-3-writer-name {
+    color: white;
+}
+
+.section-3 .card-parent-sec-3 .slick-dots {
+    bottom: -96px !important;
+}
+
+
+.section-3 .card-parent-sec-3 .slick-dots li {
+    background-color: #dde0e4;
+    border-radius: 50%;
+    transition: 0.3s !important;
+}
+
+.section-3 .card-parent-sec-3 .slick-dots .slick-active {
+    width: 79px;
+    background-color: #1219D2;
+    border-radius: 10px;
+}
+
+.section-3 .card-parent-sec-3 .slick-dots :not(.slick-active) {
+    width: 39px;
+    border-radius: 10px;
+}
+
+
+.section-3 .card-parent-sec-3 .slick-dots li button:before {
+    margin-top: 42px;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent !important;
+}
